@@ -16,5 +16,31 @@ namespace ListaDeContatosT7
         {
             InitializeComponent();
         }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Incluircartao_Click(object sender, EventArgs e)
+        {
+            // Criar um objeto da classe contato.
+            Contato contato = new Contato();
+            contato.Nome = textBoxNome.Text;
+            contato.Sobrenome = textBoxSobrenome.Text;
+            contato.Telefone = textBoxTelefone.Text;
+
+            ListBoxContatos.Items.Add(contato.ToString());
+        }
     }
 }
