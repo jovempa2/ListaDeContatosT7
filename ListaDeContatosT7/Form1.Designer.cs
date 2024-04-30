@@ -1,4 +1,4 @@
-﻿namespace ListaDeContatosT7
+﻿namespace ListaDeContatos
 {
     partial class Form1
     {
@@ -63,17 +63,17 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(12, 95);
-            this.label1.Name = "label1";
+            this.label1.Name = "labelnome";
             this.label1.Size = new System.Drawing.Size(35, 13);
             this.label1.TabIndex = 5;
             this.label1.Text = "Nome";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+            
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(12, 191);
-            this.label2.Name = "label2";
+            this.label2.Name = "labeltelefone";
             this.label2.Size = new System.Drawing.Size(49, 13);
             this.label2.TabIndex = 6;
             this.label2.Text = "Telefone";
@@ -82,11 +82,11 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(12, 145);
-            this.label3.Name = "label3";
+            this.label3.Name = "labelsobrenome";
             this.label3.Size = new System.Drawing.Size(61, 13);
             this.label3.TabIndex = 7;
             this.label3.Text = "Sobrenome";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
+            
             // 
             // ListBoxContatos
             // 
@@ -95,17 +95,17 @@
             this.ListBoxContatos.Name = "ListBoxContatos";
             this.ListBoxContatos.Size = new System.Drawing.Size(326, 264);
             this.ListBoxContatos.TabIndex = 8;
-            this.ListBoxContatos.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
+            
             // 
             // Incluircartao
             // 
             this.Incluircartao.Location = new System.Drawing.Point(56, 324);
-            this.Incluircartao.Name = "Incluircartao";
-            this.Incluircartao.Size = new System.Drawing.Size(289, 101);
+            this.Incluircartao.Name = "buttonIncluirContato";
+            this.Incluircartao.Size = new System.Drawing.Size(201, 101);
             this.Incluircartao.TabIndex = 9;
             this.Incluircartao.Text = "button1";
             this.Incluircartao.UseVisualStyleBackColor = true;
-            this.Incluircartao.Click += new System.EventHandler(this.Incluircartao_Click);
+            this.Incluircartao.Click += new System.EventHandler(this.buttonIncluirContato_Click);
             // 
             // Form1
             // 
